@@ -42,7 +42,7 @@ const MapView = () => {
 
     if (!window.google) {
       const script = document.createElement('script');
-      script.src = `https://maps.googleapis.com/maps/api/js?key=AIzaSyAbx_2Ysocjfrh1m05bZlICNcRGXXhKsWA&libraries=visualization`;
+      script.src = `https://maps.googleapis.com/maps/api/js?key=My APIkey&libraries=visualization`;
       script.async = true;
       script.defer = true;
       script.onload = initMap;
