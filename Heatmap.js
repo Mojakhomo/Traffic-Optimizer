@@ -22,7 +22,7 @@ const heatMapData = [
 export default function Heatmap() {
   const { isLoaded } = useJsApiLoader({
     id: 'google-map-script',
-    googleMapsApiKey: 'AIzaSyAbx_2Ysocjfrh1m05bZlICNcRGXXhKsWA', // ✅ your key
+    googleMapsApiKey: '', // ✅ your key
     libraries: ['visualization'],
   });
 
